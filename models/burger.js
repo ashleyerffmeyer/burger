@@ -9,12 +9,10 @@ var burger = {
         });
     },
     update: function (id, cb) {
-        orm.update("burgers", id, cb);
+        orm.update("burgers", id, cb)
     },
-    delete: function (condition, cb) {
-        orm.delete("burgers", condition, function (res) {
-            cb(res);
-        });
+    create: function (name, cb) {
+        orm.create("burgers", name, cb);
     }
 };
 
