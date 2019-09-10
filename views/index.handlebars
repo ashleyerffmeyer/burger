@@ -17,7 +17,7 @@
                         <form method="POST" action="/burgers/update?_method=PUT" class="button-size">
                             <input type="hidden" name="burger_id" type="text" value={{this.id}}>
                             <br>
-                            <button type="submit" class="btn btn-primary">EAT IT!</button>
+                            <button type="submit" class="btn btn-primary">EAT IT</button>
                         </form>
                     </div>
                     {{/unless}}
@@ -40,7 +40,8 @@
         <div class="col-md-12 text-center enter_section">
             <p>Enter a burger you want to eat!</p>
             <form action="/burgers/create" method="POST">
-                <input type="text" name="burger_name" class="form-control" value="" id="enter_text">
+                <input type="text" name="burger_name" class="form-control" value="" id="enter_text"
+                    placeholder="Add your burger here">
                 <br>
                 <button type="submit" class="btn btn-primary" id="text-enter-button">Add A Burger!</button>
             </form>
