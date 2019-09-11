@@ -1,7 +1,24 @@
-#top-bar{
+h1{
     font-family: 'MedievalSharp', cursive;
-    }
+    color: #011475;
+    font-weight: bold;
+}
 
-.btn{
-font-family: 'Megrim', cursive;
+h2{
+    font-family: 'MedievalSharp', cursive;
+    color: #FBA301;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'MedievalSharp', cursive;
+    color: #FBA301;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn-primary {
+    font-family: 'MedievalSharp', cursive;
+    color: #FBA301;
+    background-color: #011475;;
+    border-color: #011475;;
 }

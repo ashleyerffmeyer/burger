@@ -13,7 +13,8 @@ router.get("/", function (req, res) {
     });
 });
 
-router.put("/burgers/update", function (req, res) {
+router.post("/burgers/update", function (req, res) {
+    console.log(req.body.burger_id);
     burger.update(req.body.burger_id, function (result) {
         console.log(result);
         res.redirect("/");
