@@ -16,13 +16,13 @@ Ashley Erffmeyer, with major support from KU's Coding Boot Camp staff members:
 * Node.js
 * [Express](https://www.npmjs.com/package/express)
 * [MySQL](https://www.npmjs.com/package/mysql)
-* [Handlebars](https://www.npmjs.com/package/express-handlebars)
+* [Express-Handlebars](https://www.npmjs.com/package/express-handlebars)
 * ORM
 
 
 ## Prerequisites & Installations
 
-In order to run this command line node app, first install node.js and npm. To install the app, clone this repository and use 'npm install' to gather dependencies specified in the package.json file (inquirer and MySQL). The depencencies are needed for data input and storage in the database.
+In order to run this command line node app, first install node.js and npm. To install the app, clone this repository and use 'npm install' to gather dependencies specified in the package.json file (Express, MySQL, Express-handlebars). The depencencies are needed for data input and storage in the database.
 
 ## Application Overview
 
@@ -31,9 +31,4 @@ This application is a burger logger with MySQL, Node, Express, Handlebars and a 
 
 ## Instructions
 
-In the MySQL database called `bamazon`, there is a table of products that contains 10 different products and the following product information:
-* item_id (unique id for each product)
-* product_name (Name of product)
-* department_name
-* price (cost to customer)
-* stock_quantity (how much of the product is available in stores)
+Add a burger you'd like to devour at the bottom of the page under 'Enter a burger you want to eat'. Click the "Add A Burger" button. It will be added to the left side of the appplication (and the MySQL database!). To devour a burger, click the "Eat It" button. The burger you clicked will be moved to the right side of the application. 
