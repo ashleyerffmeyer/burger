@@ -1,24 +1,58 @@
-h1{
+body{
+    background-color: #FBA301;
+}
+
+.container{
+    background-color: white;
+}
+
+.big-title{
+    font-family: 'MedievalSharp', cursive;
+    color: #FBA301;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.sub-title{
     font-family: 'MedievalSharp', cursive;
     color: #011475;
     font-weight: bold;
+    font-size: 40px;
 }
 
-h2{
+.instructions{
     font-family: 'MedievalSharp', cursive;
     color: #FBA301;
     font-weight: bold;
+    font-size: 24px;
 }
 
-p{
-    font-family: 'MedievalSharp', cursive;
-    color: #FBA301;
-    font-weight: bold;
-    font-size: 20px;
-}
 .btn-primary {
     font-family: 'MedievalSharp', cursive;
     color: #FBA301;
-    background-color: #011475;;
-    border-color: #011475;;
+    background-color: #011475;
+    border-color: #011475;
+   
 }
+
+.devoured{
+    border-radius: 25px; 
+    background-color: #FBA301;
+    color: #011475;
+    font-family: 'Open Sans';
+    width: 80%;
+    font-size: 16px;
+}
+
+
+
+.burger{
+    border-radius: 25px;   
+    background-color:  rgb(252, 198, 98);
+    padding: .375rem .75rem;
+    font-family: 'Open Sans';
+    color: white;
+    margin: 0 0 0 40px;
+    font-size: 16px; 
+}
+

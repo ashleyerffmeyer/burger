@@ -1,9 +1,9 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center" id="top-bar">
-            <h1><b>EAT-DA-BURGER:</b></h1>
-            <h2><b>What You Crave</b></h2>
-            <img src="https://img1.mashed.com/img/gallery/what-you-dont-know-about-white-castles-famous-sliders/intro-1538487680.jpg"
+            <h1 class="big-title"><b>EAT-DA-BURGER:</b></h1>
+            <h2 class="sub-title"><b>What You Crave</b></h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/White_Castle_logo.svg/400px-White_Castle_logo.svg.png"
                 alt="slider">
         </div>
 
@@ -14,7 +14,7 @@
                     {{#unless this.devoured}}
                     <div class="col-md-9 text-center">
                         <br>
-                        <pre>{{this.id}}. {{this.burger_name}}</pre>
+                        <pre class="burger">{{this.id}}. {{this.burger_name}}</pre>
                     </div>
                     <div class="col-md-3 text-center">
                         <form method="POST" action="/burgers/update?_method=PUT" class="button-size">
@@ -32,18 +32,19 @@
                 {{#each burger_data}}
                 {{#if this.devoured}}
                 <br>
-                <input class="form-control" type="text" placeholder="{{this.id}}. {{this.burger_name}}" readonly>
+                <input class="form-control devoured" type="text" placeholder="{{this.id}}. {{this.burger_name}}"
+                    readonly>
                 {{/if}}
                 {{/each}}
             </div>
         </div>
     </div>
 </div>
-<br>
 <div class="container">
     <div class="row">
         <div class="col-md-12 text-center enter_section">
-            <p>Enter a burger you want to eat</p>
+            <br>
+            <p class="instructions">Enter a burger you want to eat</p>
             <form action="/burgers/create" method="POST">
                 <input type="text" name="burger_name" class="form-control" value="" id="enter_text"
                     placeholder="Add your burger here">
