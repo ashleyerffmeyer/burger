@@ -2,7 +2,7 @@
 
 Burger Logger with MySQL, Node, Express, Handlebars, and homemade ORM technologies.
 
-[Link to Burger Heroku Site!](https://drive.google.com/file/d/1oYwg8tB3UqN4bJZ26TUmWUXmKdre86iV/view?usp=sharing) 
+[Link to Burger Heroku Site!](https://murmuring-hollows-11052.herokuapp.com/) 
 
 ## Authors
 Ashley Erffmeyer, with major support from KU's Coding Boot Camp staff members:
@@ -26,9 +26,13 @@ In order to run this command line node app, first install node.js and npm. To in
 
 ## Application Overview
 
-This application is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM technologies. It follows the MVC design pattern. It uses Node and MySQL to query and route data in the application and Handlebars to generate the necessary HTML.
+This application is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM technologies. It follows the MVC design pattern. It uses Node and MySQL to query and route data in the application. It also uses Handlebars to generate the necessary HTML.
 
 
 ## Instructions
 
-Add a burger you'd like to devour at the bottom of the page under 'Enter a burger you want to eat'. Click the "Add A Burger" button. It will be added to the left side of the appplication (and the MySQL database!). To devour a burger, click the "Eat It" button. The burger you clicked will be moved to the right side of the application. 
+Add a burger you'd like to devour at the bottom of the page under 'Enter a burger you want to eat'.
+
+Click the "Add A Burger" button. It will be added to the left side of the appplication (and the MySQL database!). 
+
+To devour a burger, click the "Eat It" button. The burger you clicked will be moved to the right side of the application. 
